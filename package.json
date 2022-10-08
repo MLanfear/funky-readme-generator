@@ -1,5 +1,15 @@
 {
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "BRMG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MLanfear",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "keywords": []
 }
