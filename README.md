@@ -37,9 +37,9 @@ Currently no test instructions or examples for this project.
 
 # Questions
 
-To see my Github page for further documentation, updates or other projects click [here](https://github.com/skytexier).
+To see my Github page for further documentation, updates or other projects click [here](https://github.com/MLanfear).
 
-For further questions or inquaries reach out at skyhamilton@gmail.com
+For further questions or inquaries reach out at maxjlanfear@gmail.com
 
 
 # License
