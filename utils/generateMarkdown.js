@@ -86,6 +86,7 @@ ${data.description}
 - [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
+
 # Installation
   
 ${data.install}
@@ -101,9 +102,13 @@ ${data.contribute}
 # Tests
   
 ${data.test}
+
 # Questions
+
 To see my Github page for further documentation, updates or other projects click [here](https://github.com/${data.githubUser}).
+
 For further questions or inquaries reach out at ${data.email}
+
 ${licenseSection} `;
 }
 module.exports = generateMarkdown;
