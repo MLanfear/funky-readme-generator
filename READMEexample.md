@@ -1,8 +1,8 @@
-# Test Read Me [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# TEST  
           
 # Description
   
-This is a sample demonstration
+TEST TEST TEST
   
 # Table of Contents
 - [Installation](#installation)
@@ -11,24 +11,29 @@ This is a sample demonstration
 - [Tests](#tests)
 - [Questions](#questions)
 - [License](#license)
+
 # Installation
   
 npm i
   
 # Usage
   
-basic questions for user input
+basic readme generator with prompts
   
 # Contribution Guidelines
   
-inquirer and node.js
+NA
   
 # Tests
   
-Check read me in code
+See package.json file
+
 # Questions
-To see my Github page for further documentation, updates or other projects click [here](https://github.com/github.com/MLanfear).
+
+To see my Github page for further documentation, updates or other projects click [here](https://github.com/MLanfear@gmail.com).
+
 For further questions or inquaries reach out at maxjlanfear@gmail.com
 
+
 # License
-https://opensource.org/licenses/MIT 
+Link cannot be found 
