@@ -19,13 +19,21 @@ function renderLicenseBadge(license) {
   }
   else if (license === "The Unliscense"){
     return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
-  } else 
+  } 
+  else if (license === "GNU General Public License"){
+    return "[![License: GNU GPL](https://www.gnu.org/graphics/agplv3-with-text-162x68.png)](https://www.gnu.org/licenses/gpl.html)"
+  }
+  else if (license === "Mozilla Public License"){
+    return "[![License: Mozilla PL](https://www.mozilla.org/en-US/MPL/2.0/)]"
+  }
+  else if (license === "Boost SL"){
+    return "[![License: Boost SL](https://www.bfgroup.xyz/b2/LICENSE.txt)]"
+  }
   return license = " ";
 
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// EMPTY STRING IF INVALID LICENSE
 function renderLicenseLink(license) {
   let link = ""
   switch (license){
@@ -44,6 +52,15 @@ function renderLicenseLink(license) {
     case "The Unliscense":
       link = "http://unlicense.org/"
       break;
+    case "GNU General Public License":
+      link = "https://www.gnu.org/licenses/gpl.html"
+      break;
+    case "Mozilla Public License":
+      link = "https://www.mozilla.org/en-US/MPL/2.0/"
+      break;
+    case "Boost SL":
+      link = "https://www.bfgroup.xyz/b2/LICENSE.txt"
+      break;
       default: 
       link = "Link cannot be found"
   }
@@ -51,8 +68,7 @@ function renderLicenseLink(license) {
   return link
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// TODO: RETURNS LICENSE SECTION
 function renderLicenseSection(license) {
   const licenseBadge = renderLicenseBadge(license);
   console.log('renderLicenseSection licenseBadge',licenseBadge);
@@ -69,7 +85,7 @@ ${licenseLink}`;
 
 }
 
-// TODO: Create a function to generate markdown for README
+// README MARKDOWN GENERATION
 function generateMarkdown(data) {
   const licenseSection = renderLicenseSection(data.license);
   const licenseBadge = renderLicenseBadge(data.license)
